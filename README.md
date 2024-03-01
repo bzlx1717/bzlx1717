@@ -76,7 +76,6 @@ public class Maximum
 //        }
 //        return new int []{max,min};
 //    }//5
-
 //    static int stringcompre(String x, String y)
 //    {
 //        count++;
@@ -99,7 +98,6 @@ public class Maximum
 //        }
 //        return new String []{min,max};
 //    }//13 14
-
     static int  maximum(int [][] x){
         int maxn = maximum(x[0]);
         int i=1;
@@ -120,12 +118,10 @@ public class Maximum
 
 //        System.out.println(minimum(arr));
 //        System.out.println(minima(arr));
-
 //        int [] ans = extremal(arr);
 //        System.out.println("max: " + ans[0]);
 //        System.out.println("min: " + ans[1]);
 //        System.out.println("count: " + count);
-
 //        for(int j=1;j<=10;j++){
 //            int N = 1000000*j;
 //            int [] a = new int[N];
@@ -138,7 +134,6 @@ public class Maximum
 //            long t1 = System.currentTimeMillis();
 //            System.out.println(N + " " + (t1-t0));
 //        }
-
 //        count=0;
 //        String [] twoends = extremal(new String[]{"Zhang", "Li", "Chao", "1", "%", "*", "@"});
 //        System.out.println("min=" + twoends[0] + ", and max=" + twoends[1] + ", #comparisons=" + count);
